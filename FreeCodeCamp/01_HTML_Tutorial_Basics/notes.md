@@ -15,8 +15,8 @@
 
 - **`<!DOCTYPE html>`**: Declares the document type as HTML5, all HTML files have to start with this **tag**.
 - **`<html>`**: Root element of the HTML document.
-- **`<head>`**: Contains metadata, styles, and links to external resources.
 - **`<body>`**: Contains all the visible content of the webpage.
+- **`<head>`**: Contains metadata, styles, and links to external resources.
 
 ### **Common Tags**
 
@@ -38,14 +38,16 @@
 
 ## **HTML Attributes**
 
-- **Attributes** are special words used inside the opening **tag** to change their behavior or appearance.
-- They are written inside the opening **tag** as **`name="value"`** pairs.
+- **Attributes** are properties or settings applied to HTML tags to modify their behavior or appearance. They are written inside the opening tag and follow the format:
+  **`attribute="value"`**
 
-### **Examples of Common Attributes:**
+### **Examples of some Common Attributes:**
 
+- **`href`**: Specifies the URL for links.
 - **`src`**: Specifies the source of the image.
-- **`alt`**: Provides alternative text if the image doesn’t load.
-- **`width`** & **`height`**: Set the dimensions of the element.
+- **`alt`**: Provides alternative text for images when they cannot be displayed.
+- **`style`**:
+- **`width`** & **`height`**: Define the size of the element in pixels or percentages.
 
 ### Example Code
 
