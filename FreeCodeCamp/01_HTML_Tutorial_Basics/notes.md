@@ -46,7 +46,6 @@
 - **`href`**: Specifies the URL for links.
 - **`src`**: Specifies the source of the image.
 - **`alt`**: Provides alternative text for images when they cannot be displayed.
-- **`style`**:
 - **`width`** & **`height`**: Define the size of the element in pixels or percentages.
 
 ### Example Code
