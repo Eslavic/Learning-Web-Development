@@ -28,9 +28,12 @@
 - **Image (`<img>`)**:
   - Displays images on the webpage. You can add [**attributes**](#html-attributes) to some **tags**.
 - **Anchor Element (`<a>`)**:
-
   - The `<a>` element creates a hyperlink, allowing users to navigate to another webpage, a specific section within the same page, or even trigger downloads.
   - It requires the [**href**](#examples-of-some-common-attributes) attribute.
+- **List Elements (`<ul>, <ol>`)**:
+  - **Unordered List (`<ul>`)**: Creates an unordered list (bulleted list).
+  - **Ordered List (`<ol>`)**: Creates an ordered (numbered) list.
+  - **List Item (`<li>`)**: Represents an item in either type of list (`<ul>` or `<ol>`).
 
 ### Semantic Elements
 
@@ -47,10 +50,18 @@
 
 ### **Examples of some Common Attributes:**
 
-- **`src`**: Specifies the source of the image.
-- **`href`**: Specifies the URL or destination of the link.
+- **`src`**: Specifies the source of the image (used in the `<img>` tag).
+- **`href`**: Specifies the URL or destination of the link (used in the `<a>` tag).
+  <details>
+    <summary>Click for more <strong><code>href</code></strong> variations</summary>
+    <ul>
+      <li><code>href="link"</code>: Most commonly used.</li>
+      <li><code>href="#"</code>: Creates a placeholder link that doesn’t lead anywhere. It's often used as a placeholder or when the link's behavior is controlled by JavaScript.</li>
+    </ul>
+  </details>
 - **`alt`**: Provides alternative text for images when they cannot be displayed.
-- **`width`** & **`height`**: Define the size of the element in pixels or percentages.
+- **`width`** & **`height`**: Define the size of the element in pixels or percentages (commonly used in images and other media).
+- **`target="_blank`**: Opens the linked page in a new tab or window (used in the `<a>` tag).
 
 ### Example Code
 
@@ -74,8 +85,17 @@
         height="500"
         alt="A cute brown and orange dog sitting with a blue scarf"
       />
+      <h4>Things Esquitx love:</h4>
+      <ul>
+        <li>The beach</li>
+        <li>Food, especially meat</li>
+        <li>Run and walk in a sunny day</li>
+        <li>Caresses between back and butt</li>
+      </ul>
       <h3>Photoshot Stormy</h3>
-      <p>Click here to view Stormy pictures</p>
+      <p>
+        <a href="#" target="_blank">Click here to view Stormy pictures</a>
+      </p>
       <!-- This is not gonna appear in the final output-->
       <img
         src="Assets/Stormy_Abrigado.jpg"
@@ -83,6 +103,7 @@
         height="500"
         alt="A cute Border Collie wearing a sweater, sitting next to a panda stuffed animal"
       />
+      <h4>Things Stormy love</h4>
     </main>
   </body>
 </html>
