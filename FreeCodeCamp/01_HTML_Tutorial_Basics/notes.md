@@ -34,6 +34,13 @@
   - **Unordered List (`<ul>`)**: Creates an unordered list (bulleted list).
   - **Ordered List (`<ol>`)**: Creates an ordered (numbered) list.
   - **List Item (`<li>`)**: Represents an item in either type of list (`<ul>` or `<ol>`).
+- **Text Emphasis Elements(`<strong>, <em>`)**:
+  - **`<strong>`**: Makes text <strong>bold</strong> and gives it semantic importance.
+  - **`<em>`**: Emphasizes text by displaying it in <em>italics</em>.
+- **Form and Input Elements(`<form>, <input>, <button>`)**:
+  - **`<form> `**: Used to create interactive forms that allow users to submit data.
+  - **`<input>`**: Used to collect user input. It can have different types depending on what kind of input you need.
+  - **`<button>`**: Creates a clickable button. It is often used inside forms to submit data.
 
 ### Semantic Elements
 
@@ -56,7 +63,7 @@
     <summary>Click for more <strong><code>href</code></strong> variations</summary>
     <ul>
       <li><code>href="link"</code>: Most commonly used.</li>
-      <li><code>href="#"</code>: Creates a placeholder link that doesn’t lead anywhere. It's often used as a placeholder or when the link's behavior is controlled by JavaScript.</li>
+      <li><code>href="#"</code>: Creates a placeholder link that doesn’t lead anywhere.</li>
     </ul>
   </details>
 - **`alt`**: Provides alternative text for images when they cannot be displayed.
