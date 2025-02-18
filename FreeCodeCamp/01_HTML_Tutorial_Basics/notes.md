@@ -18,7 +18,7 @@
 - **`<body>`**: Contains all the visible content of the webpage.
 - **`<head>`**: Contains metadata, styles, and links to external resources.
 
-### **Common Tags**
+### **HTML Tags and Their Attributes**
 
 - **Headings (`<h1>` to `<h6>`)**:
   - Define the hierarchy of titles and subtitles on a page.
@@ -29,18 +29,25 @@
   - Displays images on the webpage. You can add [**attributes**](#html-attributes) to some **tags**.
 - **Anchor Element (`<a>`)**:
   - The `<a>` element creates a hyperlink, allowing users to navigate to another webpage, a specific section within the same page, or even trigger downloads.
-  - It requires the [**href**](#examples-of-some-common-attributes) attribute.
+  - It requires the [**href**](#html-attributes) attribute.
+  - **`target="\_blank"`**: Opens the linked page in a new tab or window.
 - **List Elements (`<ul>, <ol>`)**:
   - **Unordered List (`<ul>`)**: Creates an unordered list (bulleted list).
   - **Ordered List (`<ol>`)**: Creates an ordered (numbered) list.
   - **List Item (`<li>`)**: Represents an item in either type of list (`<ul>` or `<ol>`).
-- **Text Emphasis Elements(`<strong>, <em>`)**:
+- **Text Emphasis Elements (`<strong>, <em>`)**:
   - **`<strong>`**: Makes text <strong>bold</strong> and gives it semantic importance.
   - **`<em>`**: Emphasizes text by displaying it in <em>italics</em>.
-- **Form and Input Elements(`<form>, <input>, <button>`)**:
-  - **`<form> `**: Used to create interactive forms that allow users to submit data.
+- **Form and Input Elements (`<form>, <input>, <button>`)**:
+  - **`<form>`**: Used to create interactive forms that allow users to submit data.
+    - **action="..."**: Specifies where the form data is sent after submission.
+    - **method="..."**: Defines how the form data is submitted (e.g., GET, POST).
   - **`<input>`**: Used to collect user input. It can have different types depending on what kind of input you need.
-  - **`<button>`**: Creates a clickable button. It is often used inside forms to submit data.
+    - **type="..."**: Specifies the type of input (e.g., text, email, password, radio).
+      - `type`=**`"radio"`**: Creates a radio button for selecting one option from a set.
+    - **placeholder="..."**: Displays a hint inside the field to guide the user.
+    - **required**: Ensures the user must fill in the field before submitting the form.
+  - **`<button>`**: Creates a clickable button, often used inside forms to submit data.
 
 ### Semantic Elements
 
@@ -52,23 +59,21 @@
 
 ## **HTML Attributes**
 
-- **Attributes** are properties or settings applied to HTML tags to modify their behavior or appearance. They are written inside the opening tag and follow the format:
+- **Attributes** are properties or settings applied to HTML tags to modify their behavior or appearance. They are written inside the opening tag and follow the format:  
   **`attribute="value"`**
 
-### **Examples of some Common Attributes:**
+### **Common Attributes**:
 
 - **`src`**: Specifies the source of the image (used in the `<img>` tag).
 - **`href`**: Specifies the URL or destination of the link (used in the `<a>` tag).
   <details>
-    <summary>Click for more <strong><code>href</code></strong> variations</summary>
+    <summary>Click for more <strong>href</strong> varioations</summary>
     <ul>
-      <li><code>href="link"</code>: Most commonly used.</li>
-      <li><code>href="#"</code>: Creates a placeholder link that doesn’t lead anywhere.</li>
+      <li><strong><code>href="#"</code></strong>: Creates a placeholder link that doesn’t lead anywhere.</li>
     </ul>
   </details>
 - **`alt`**: Provides alternative text for images when they cannot be displayed.
 - **`width`** & **`height`**: Define the size of the element in pixels or percentages (commonly used in images and other media).
-- **`target="_blank`**: Opens the linked page in a new tab or window (used in the `<a>` tag).
 
 ### Example Code
 
