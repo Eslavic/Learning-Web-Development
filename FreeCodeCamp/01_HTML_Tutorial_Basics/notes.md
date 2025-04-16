@@ -14,6 +14,10 @@
 ### **Basic Structure**
 
 - **`<!DOCTYPE html>`**: Declares the document type as HTML5, all HTML files have to start with this **tag**.
+
+## Page Language Attribute
+
+- **`lang="en"`**: This tells the browser that the content of your page is in English, It helps with accessibility (like for screen readers), and improves SEO.
 - **`<html>`**: Root element of the HTML document.
 - **`<body>`**: Contains all the visible content of the webpage.
 - **`<head>`**: Contains metadata, styles, and links to external resources.
@@ -31,6 +35,14 @@
   - The `<a>` element creates a hyperlink, allowing users to navigate to another webpage, a specific section within the same page, or even trigger downloads.
   - It requires the [**href**](#html-attributes) attribute.
   - **`target="\_blank"`**: Opens the linked page in a new tab or window.
+- **`<div>`**:
+  - A basic container used to group other HTML elements together.
+  - It doesn't add any special meaning — it's just a box to organize your content.
+  - Very useful when you want to apply styles or layout changes using CSS.
+- **`class="..."`**:
+  - This is an attribute you add to an element to give it a name (a "class").
+  - That name can be used in CSS to style that element.
+  - You can also use the same class on multiple elements to apply the same styles to all of them.
 - **List Elements (`<ul>, <ol>`)**:
   - **Unordered List (`<ul>`)**: Creates an unordered list (bulleted list).
   - **Ordered List (`<ol>`)**: Creates an ordered (numbered) list.
@@ -54,6 +66,7 @@
 - **Semantic elements** describe the purpose of the content, improving readability for humans and search engines.
 
   - **`<main>`**: Wraps the main content of the page.
+  - **`<footer>`**: A section usually found at the bottom of the page.
 
 ---
 
